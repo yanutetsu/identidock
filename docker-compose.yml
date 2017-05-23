@@ -1,0 +1,9 @@
+identidock:
+  build: .
+  ports:
+    - "9090:9191"
+  environment:
+    ENV: DEV
+  volumes:
+    - ./app:/app
+
